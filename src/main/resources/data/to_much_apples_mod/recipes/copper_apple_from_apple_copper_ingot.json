@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "#": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "to_much_apples_mod:copper_apple",
+    "count": 8
+  }
+}

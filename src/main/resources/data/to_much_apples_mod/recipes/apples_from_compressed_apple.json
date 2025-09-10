@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "to_much_apples_mod:compressed_apple"
+    }
+  ],
+  "result": {
+    "item": "minecraft:apple",
+    "count": 9
+  }
+}
