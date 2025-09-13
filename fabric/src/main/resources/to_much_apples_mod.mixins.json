@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "de.shadowdara.to_much_apples_mod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

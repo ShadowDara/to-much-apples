@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "to_much_apples_mod:block/compressed_apple"
-  }
-}

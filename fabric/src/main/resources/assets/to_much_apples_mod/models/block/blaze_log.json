@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "to_much_apples_mod:block/blaze_log_top",
+    "side": "to_much_apples_mod:block/blaze_log_side"
+  }
+}

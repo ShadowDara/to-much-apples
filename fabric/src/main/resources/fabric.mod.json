@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "to_much_apples_mod",
+	"version": "${version}",
+	"name": "de.shadowdara.to_much_apples_mod",
+	"description": "a simple mod which ads a lot of apples to minecraft",
+	"authors": [
+		"Shadowdara"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Shadowdara/to_much_apples"
+	},
+	"license": "Appache-2.0",
+	"icon": "assets/to_much_apples_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+      "client": [
+        "de.shadowdara.to_much_apples_mod.To_much_apples_modClient"
+      ],
+		"main": [
+			"de.shadowdara.to_much_apples_mod.To_much_apples_mod"
+		],
+		"fabric-datagen": [
+			"de.shadowdara.to_much_apples_mod.To_much_apples_modDataGenerator"
+		]
+	},
+	"mixins": [
+		"to_much_apples_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
