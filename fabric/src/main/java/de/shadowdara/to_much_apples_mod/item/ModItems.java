@@ -26,14 +26,21 @@ public class ModItems {
             new Item(new Item.Settings()));
     public static final Item PINK_APPLE = registerItem("pink_apple",
             new Item(new Item.Settings()));
-
-    public static final Item NETHERITE_APPLE = registerItem("netherite_apple",
+    public static final Item DARK_PINK_APPLE = registerItem("dark_pink_apple",
             new Item(new Item.Settings()));
-
-    public static final Item NETHERITE_APPLE = registerItem("netherite_apple",
+    public static final Item DIAMOND_APPLE = registerItem("diamond_apple",
             new Item(new Item.Settings()));
-
-    public static final Item NETHERITE_APPLE = registerItem("netherite_apple",
+    public static final Item IRON_APPLE = registerItem("iron_apple",
+            new Item(new Item.Settings()));
+    public static final Item REDSTONE_APPLE = registerItem("redstone_apple",
+            new Item(new Item.Settings()));
+    public static final Item DARK_IRON_APPLE = registerItem("dark_iron_apple",
+            new Item(new Item.Settings()));
+    public static final Item DARK_DIAMOND_APPLE = registerItem("dark_diamond_apple",
+            new Item(new Item.Settings()));
+    public static final Item DARK_NETHERITE_APPLE = registerItem("dark_netherite_apple",
+            new Item(new Item.Settings()));
+    public static final Item BAD_APPLE = registerItem("bad_apple",
             new Item(new Item.Settings()));
 
     private static void addItemsToFoodandDrinkItemGroup(FabricItemGroupEntries entries) {
@@ -45,6 +52,14 @@ public class ModItems {
         entries.add(QUARTZ_APPLEE);
         entries.add(GREEN_APPLE);
         entries.add(PINK_APPLE);
+        entries.add(DARK_PINK_APPLE);
+        entries.add(DIAMOND_APPLE);
+        entries.add(IRON_APPLE);
+        entries.add(REDSTONE_APPLE);
+        entries.add(DARK_IRON_APPLE);
+        entries.add(DARK_DIAMOND_APPLE);
+        entries.add(DARK_NETHERITE_APPLE);
+        entries.add(BAD_APPLE);
     }
 
     private static Item registerItem(String name, Item item) {
