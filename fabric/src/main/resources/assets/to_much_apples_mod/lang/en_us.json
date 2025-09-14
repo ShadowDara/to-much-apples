@@ -16,10 +16,8 @@
   "item.to_much_apples_mod.dark_netherite_apple": "Dark Netherite Apple",
   "item.to_much_apples_mod.dark_iron_apple": "Dark Iron Apple",
 
-
-
   "block.to_much_apples_mod.blaze_log" : "Blaze Log",
   "block.to_much_apples_mod.compressed_apple" : "Block of compressed Apple",
 
-  "creativetab.apples_tab": "To Much Apples"
+  "creativetab.apples_tab": "To Much Apples Tab"
 }
